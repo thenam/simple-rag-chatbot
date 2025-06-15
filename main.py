@@ -159,7 +159,7 @@ if st.session_state.rag_chain:
         with st.spinner("Đang tìm câu trả lời..."):
             output = st.session_state.rag_chain.invoke(question)
             print(output)
-            answer = output.split("Trả lời:")[1].strip() if "Trả lời:" in output else output.strip()
+            answer = output.split("Answer:")[1].strip() if "Answer:" in output else output.strip()
 
             st.write("**Trả lời:**")
             st.write(answer)
