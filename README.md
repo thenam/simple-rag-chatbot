@@ -4,7 +4,7 @@
 bkai-foundation-models/vietnamese-bi-encoder
 
 ## LLM model
-lmsys/vicuna-7b-v1.5
+Qwen/Qwen2-1.5B-Instruct
 
 ## note
 - Chạy project trong môi trường linux hoặc wsl
